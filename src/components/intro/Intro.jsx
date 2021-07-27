@@ -10,16 +10,16 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Web & Mobile Developer", "CyberSecurity"],
+      strings: ["Frontend Developer", "Ethical Hacker"],
     });
   }, []);
 
   return (
     <div className="intro" id="intro">
       <div className="left">
-        {/* <div className="imgContainer">
+        <div className="imgContainer">
           <img src="assets/man.png" alt="" />
-        </div> */}
+        </div> 
       </div>
       <div className="right">
         <div className="wrapper">

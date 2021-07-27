@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import { Person, Mail } from "@material-ui/icons";
+import { Phone, Mail } from "@material-ui/icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -10,7 +10,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             Z
           </a>
           <div className="itemContainer">
-            <Person className="icon" />
+            <Phone className="icon" />
             <span>+34 655 92 78 65</span>
           </div>
           <div className="itemContainer">
